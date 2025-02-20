@@ -1,1 +1,3 @@
 # news_classification_system
+
+This is a Natural Language Processing project that classifies news into various categories such as sports, finance, government etc. For this the reuters dataset available in nltk was used. The dataset contains data divided into training and test. The various phases in classifying a news include pre-processing which in turn involves converting text to lower case, splitting text into words, removing stopwords etc. the processed text is then vectorized using CountVectorizer. Then the model is trained with the vectorized data. For this purpose Multinomial Naive Bayes model has been used. In order to make the model accessible from other applications flask API has been used
